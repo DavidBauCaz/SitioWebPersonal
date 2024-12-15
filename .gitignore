@@ -1,0 +1,37 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Virtual environments
+venv/
+.env/
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Tests
+.coverage
+.tox/
+.nox/
+
+# Node.js (opcional, si usas herramientas como npm/yarn)
+node_modules/
+
+# Local files
+*.local
